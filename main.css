@@ -12,7 +12,7 @@ ul{
 }
 .container {
     display: flex;
-    background: rgba(0,0,0,0.82);
+    background: rgba(40,40,40,100%);
     position: fixed;
     left: 0;
     top: 0;
@@ -38,7 +38,7 @@ li{
 }
 
     footer{
-        background: rgba(0,0,0,0.82);
+        background: rgba(40,40,40,100%);
         width: 100%;
         color: white;
         text-align: center;
@@ -51,8 +51,8 @@ li{
         height: 30px;
     }
     #super{
-       width: 35%;
-        height: 45%;
+       width: 25%;
+        height: 50%;
         border-radius: 20px;
     }
 #code{
@@ -87,7 +87,7 @@ li{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 2000px;
+        height: 1500px;
     }
     #copy{
         font-size: 15px;
