@@ -1,3 +1,7 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -13,7 +17,7 @@ ul{
     left: 0;
     top: 0;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 ul{
@@ -35,18 +39,56 @@ li{
 
     footer{
         background: rgba(0,0,0,0.82);
-        position: fixed;
-        padding: 20px;
-        left: 0;
-        bottom: 0;
         width: 100%;
         color: white;
         text-align: center;
+        bottom: 0;
+        left: 0;
+        position: fixed;
     }
 
     .icon{
         height: 30px;
     }
-    .social-links{
+    #super{
+       width: 35%;
+        height: 45%;
+        border-radius: 20px;
+    }
+#code{
+    width: 45%;
+    height: 45%;
+    border-radius: 20px;
+}
+    .main{
 
-     }
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+        align-items: center;
+    height: 2000px;
+
+    }
+    .text{
+        width: 550px;
+    }
+    #hi{
+        font-weight: bold;
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 2000px;
+    }
+    #copy{
+        font-size: 15px;
+    }
