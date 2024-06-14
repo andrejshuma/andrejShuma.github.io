@@ -1,0 +1,15 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 250vh;
+}
+#foto{
+    width: 60%;
+    height: 70%;
+}
+.main span{
+    font-size: 5vw;
+    font-weight: bold;
+}
+#pokratok{
+    height: 30%;
+}
