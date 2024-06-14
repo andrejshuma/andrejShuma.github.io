@@ -4,11 +4,19 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
     color: #878688;
+}
+a:hover {
+    text-decoration: underline #890b0a;
 }
 ul{
     list-style: none;
+}
+ol{
+    list-style: none;
+}
+ol>li{
+    font-size: 18px;
 }
 .container {
     display: flex;
@@ -51,25 +59,30 @@ li{
         height: 30px;
     }
     #super{
-       width: 25%;
-        height: 50%;
+       width: 450px;
+        height: 500px;
         border-radius: 20px;
     }
 #code{
-    width: 45%;
-    height: 45%;
+    width: 500px;
+    height: 350px;
     border-radius: 20px;
 }
     .main{
 
         border-left: 3px solid black;
         border-right: 3px solid black;
+
         display: flex;
         width: 80%;
         justify-content: space-evenly;
         align-items: center;
     height: 2000px;
 
+    }
+    #cv{
+        height: 1000px;
+        align-items: start;
     }
     .text{
         width: 550px;
@@ -89,6 +102,79 @@ li{
         align-items: center;
         height: 1500px;
     }
+    #special{
+        height: 900px;
+        margin-bottom: 200px;
+    }
     #copy{
         font-size: 15px;
+    }
+    #robot{
+        width: 450px;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .contactContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 950px;
+    }
+    input{
+        width: 600px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 60px;
+    }
+    textarea{
+        width: 600px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    p>a{
+        color: black;
+        font-weight: bold;
+    }
+    .contact>h1{
+        font-size: 50px;
+    }
+    #contact_button{
+        font-family: "Lucida Console", "Courier New", monospace;
+        display: block;
+        border-radius: 15px;
+        margin-top: 60px;
+        height: 60px;
+        width:340px;
+        background: lightblue;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+    #ab{
+        text-align: center;
+        font-size: 80px;
+    }
+    #about{
+        justify-content:center ;
+        align-items: center;
+    }
+    .side{
+        border: 5px solid black;
+        border-radius: 15px;
+        padding: 20px;
+        width: 500px;
+        height: 250px;
+        background: lightblue;
+    }
+    .side>h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .side>h3{
+        font-size: 18px;
+    }
+    .side li{
+        font-size:20px ;
+        font-weight: bold;
     }
