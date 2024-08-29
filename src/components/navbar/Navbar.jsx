@@ -19,17 +19,17 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
           className="social"
         >
-          <a href="">
+          <a href="https://github.com/andrejshuma">
             <img src="/public/github.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/andrew-shumanovski-39b72a313/">
             <img src="/public/linkedin.png" alt="" />
           </a>
 
-          <a href="">
+          <a href="https://www.facebook.com/andrej.sumanovski">
             <img src="/public/facebook.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/andrejshuma/">
             <img src="/public/instagram.png" alt="" />
           </a>
         </motion.div>

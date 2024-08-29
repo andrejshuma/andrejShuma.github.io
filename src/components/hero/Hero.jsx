@@ -53,8 +53,12 @@ const Hero = () => {
             Web Developer and UI Designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button>See the Latest Works</motion.button>
-            <motion.button>Contact Me</motion.button>
+            <motion.button>
+              <a href="#Portfolio">See the Latest Works</a>
+            </motion.button>
+            <motion.button>
+              <a href="#Contact">Contact Me</a>
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
