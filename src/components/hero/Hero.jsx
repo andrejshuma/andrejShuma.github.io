@@ -77,7 +77,7 @@ const Hero = () => {
         Front End Developer | UI/UX Designer | Freelancer | Web Developer
       </motion.div>
       <div className="imgContainer">
-        <img src="/public/Super.png" alt="slika" />
+        <img src="/Super.png" alt="slika" />
       </div>
     </div>
   );

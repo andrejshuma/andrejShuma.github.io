@@ -20,17 +20,17 @@ const Navbar = () => {
           className="social"
         >
           <a href="https://github.com/andrejshuma">
-            <img src="/public/github.png" alt="" />
+            <img src="/github.png" alt="" />
           </a>
           <a href="https://www.linkedin.com/in/andrew-shumanovski-39b72a313/">
-            <img src="/public/linkedin.png" alt="" />
+            <img src="/linkedin.png" alt="" />
           </a>
 
           <a href="https://www.facebook.com/andrej.sumanovski">
-            <img src="/public/facebook.png" alt="" />
+            <img src="/facebook.png" alt="" />
           </a>
           <a href="https://www.instagram.com/andrejshuma/">
-            <img src="/public/instagram.png" alt="" />
+            <img src="/instagram.png" alt="" />
           </a>
         </motion.div>
       </div>
